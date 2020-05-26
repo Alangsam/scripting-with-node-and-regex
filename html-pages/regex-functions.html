@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>JavaScript Function Library</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row mt-2">
+        <div class="col-12">
+          <h1 class="d-flex justify-content-center">
+            JavaScript Functions: Regex
+          </h1>
+          <p class="text-center lead mb-4">
+            <span id="totalFunctionNum"></span> functions documented
+          </p>
+
+          <!-- start column -->
+          <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+            <p class="name">
+              <b>wheresWaldo</b> - if given a string, will tell you if "Waldo"
+              is found inside
+            </p>
+            <pre style="display: none;"><code></code></pre>
+            <div class="actions float-right">
+              <input type="text" class="form-control inline-action" />
+              <button class="btn btn-primary inline-action">
+                Run
+              </button>
+            </div>
+            <div class="clearfix mb-3"></div>
+            <div class="alert alert-primary" style="display: none;"></div>
+            <div class="alert alert-danger" style="display: none;"></div>
+          </div>
+          <!-- end column -->
+          <!-- start column -->
+          <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+            <p class="name">
+              <b>matchVowels</b> - will find all the vowels in a string
+            </p>
+            <pre style="display: none;"><code></code></pre>
+            <div class="actions float-right">
+              <input type="text" class="form-control inline-action" />
+              <button class="btn btn-primary inline-action">
+                Run
+              </button>
+            </div>
+            <div class="clearfix mb-3"></div>
+            <div class="alert alert-primary" style="display: none;"></div>
+            <div class="alert alert-danger" style="display: none;"></div>
+          </div>
+          <!-- end column -->
+          <!-- start column -->
+          <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+            <p class="name">
+              <b>matchNotVowels</b> - everything in the string that's not a
+              number or vowel
+            </p>
+            <pre style="display: none;"><code></code></pre>
+            <div class="actions float-right">
+              <input type="text" class="form-control inline-action" />
+              <button class="btn btn-primary inline-action">
+                Run
+              </button>
+            </div>
+            <div class="clearfix mb-3"></div>
+            <div class="alert alert-primary" style="display: none;"></div>
+            <div class="alert alert-danger" style="display: none;"></div>
+          </div>
+          <!-- end column -->
+          <!-- start column -->
+          <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+            <p class="name">
+              <b>moreThanOnce</b> - shows you everytime there's more than one s
+            </p>
+            <pre style="display: none;"><code></code></pre>
+            <div class="actions float-right">
+              <input type="text" class="form-control inline-action" />
+              <button class="btn btn-primary inline-action">
+                Run
+              </button>
+            </div>
+            <div class="clearfix mb-3"></div>
+            <div class="alert alert-primary" style="display: none;"></div>
+            <div class="alert alert-danger" style="display: none;"></div>
+          </div>
+          <!-- end column -->
+          <!-- start column -->
+          <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+            <p class="name">
+              <b>findOneOrMore</b> - finds al the c's in a string
+            </p>
+            <pre style="display: none;"><code></code></pre>
+            <div class="actions float-right">
+              <input type="text" class="form-control inline-action" />
+              <button class="btn btn-primary inline-action">
+                Run
+              </button>
+            </div>
+            <div class="clearfix mb-3"></div>
+            <div class="alert alert-primary" style="display: none;"></div>
+            <div class="alert alert-danger" style="display: none;"></div>
+          </div>
+          <!-- end column -->
+          <!-- start column -->
+          <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+            <p class="name">
+              <b>beginningOf</b> - see if a string begins with "The"
+            </p>
+            <pre style="display: none;"><code></code></pre>
+            <div class="actions float-right">
+              <input type="text" class="form-control inline-action" />
+              <button class="btn btn-primary inline-action">
+                Run
+              </button>
+            </div>
+            <div class="clearfix mb-3"></div>
+            <div class="alert alert-primary" style="display: none;"></div>
+            <div class="alert alert-danger" style="display: none;"></div>
+          </div>
+          <!-- end column -->
+          <!-- start column -->
+          <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+            <p class="name"><b>endingOf</b> - see if string ends with "end"</p>
+            <pre style="display: none;"><code></code></pre>
+            <div class="actions float-right">
+              <input type="text" class="form-control inline-action" />
+              <button class="btn btn-primary inline-action">
+                Run
+              </button>
+            </div>
+            <div class="clearfix mb-3"></div>
+            <div class="alert alert-primary" style="display: none;"></div>
+            <div class="alert alert-danger" style="display: none;"></div>
+          </div>
+          <!-- end column -->
+          <!-- start column -->
+          <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+            <p class="name">
+              <b>matchAlphaNums</b> - show every alphanumeric element in a
+              string
+            </p>
+            <pre style="display: none;"><code></code></pre>
+            <div class="actions float-right">
+              <input type="text" class="form-control inline-action" />
+              <button class="btn btn-primary inline-action">
+                Run
+              </button>
+            </div>
+            <div class="clearfix mb-3"></div>
+            <div class="alert alert-primary" style="display: none;"></div>
+            <div class="alert alert-danger" style="display: none;"></div>
+          </div>
+          <!-- end column -->
+          <!-- start column -->
+          <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+            <p class="name">
+              <b>matchNonAlphaNums</b> - show every nonalphanumeric element
+            </p>
+            <pre style="display: none;"><code></code></pre>
+            <div class="actions float-right">
+              <input type="text" class="form-control inline-action" />
+              <button class="btn btn-primary inline-action">
+                Run
+              </button>
+            </div>
+            <div class="clearfix mb-3"></div>
+            <div class="alert alert-primary" style="display: none;"></div>
+            <div class="alert alert-danger" style="display: none;"></div>
+          </div>
+          <!-- end column -->
+          <!-- start column -->
+          <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+            <p class="name">
+              <b>matchNums</b> - find all the numbers in a string
+            </p>
+            <pre style="display: none;"><code></code></pre>
+            <div class="actions float-right">
+              <input type="text" class="form-control inline-action" />
+              <button class="btn btn-primary inline-action">
+                Run
+              </button>
+            </div>
+            <div class="clearfix mb-3"></div>
+            <div class="alert alert-primary" style="display: none;"></div>
+            <div class="alert alert-danger" style="display: none;"></div>
+          </div>
+          <!-- end column -->
+          <!-- start column -->
+          <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+            <p class="name">
+              <b>matchNonNums</b> - find all everything thats not a number
+            </p>
+            <pre style="display: none;"><code></code></pre>
+            <div class="actions float-right">
+              <input type="text" class="form-control inline-action" />
+              <button class="btn btn-primary inline-action">
+                Run
+              </button>
+            </div>
+            <div class="clearfix mb-3"></div>
+            <div class="alert alert-primary" style="display: none;"></div>
+            <div class="alert alert-danger" style="display: none;"></div>
+          </div>
+          <!-- end column -->
+          <!-- start column -->
+          <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+            <p class="name">
+              <b>matchNoWhite</b> - find everything thats not whitespace
+            </p>
+            <pre style="display: none;"><code></code></pre>
+            <div class="actions float-right">
+              <input type="text" class="form-control inline-action" />
+              <button class="btn btn-primary inline-action">
+                Run
+              </button>
+            </div>
+            <div class="clearfix mb-3"></div>
+            <div class="alert alert-primary" style="display: none;"></div>
+            <div class="alert alert-danger" style="display: none;"></div>
+          </div>
+          <!-- end column -->
+          <!-- start column -->
+          <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+            <p class="name">
+              <b>posNegLookahead</b> - cant start with a number, has to be 5
+              characters long, and has to end with at least 2 numbers
+            </p>
+            <pre style="display: none;"><code></code></pre>
+            <div class="actions float-right">
+              <input type="text" class="form-control inline-action" />
+              <button class="btn btn-primary inline-action">
+                Run
+              </button>
+            </div>
+            <div class="clearfix mb-3"></div>
+            <div class="alert alert-primary" style="display: none;"></div>
+            <div class="alert alert-danger" style="display: none;"></div>
+          </div>
+          <!-- end column -->
+          <!-- start column -->
+          <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+            <p class="name">
+              <b>mixedGrouping</b> - can find either Eleanor or Franklin
+              Roosevelt
+            </p>
+            <pre style="display: none;"><code></code></pre>
+            <div class="actions float-right">
+              <input type="text" class="form-control inline-action" />
+              <button class="btn btn-primary inline-action">
+                Run
+              </button>
+            </div>
+            <div class="clearfix mb-3"></div>
+            <div class="alert alert-primary" style="display: none;"></div>
+            <div class="alert alert-danger" style="display: none;"></div>
+          </div>
+          <!-- end column -->
+          <!-- start column -->
+          <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+            <p class="name">
+              <b>captureGroupsReplace</b> - replaces the first three words, with
+              themselves but in reverse order, dont use punctuation
+            </p>
+            <pre style="display: none;"><code></code></pre>
+            <div class="actions float-right">
+              <input type="text" class="form-control inline-action" />
+              <button class="btn btn-primary inline-action">
+                Run
+              </button>
+            </div>
+            <div class="clearfix mb-3"></div>
+            <div class="alert alert-primary" style="display: none;"></div>
+            <div class="alert alert-danger" style="display: none;"></div>
+          </div>
+          <!-- end column -->
+          <!-- start column -->
+          <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+            <p class="name">
+              <b>iHateWhiteSpace</b> - remove white space from the front and end
+              of a string
+            </p>
+            <pre style="display: none;"><code></code></pre>
+            <div class="actions float-right">
+              <input type="text" class="form-control inline-action" />
+              <button class="btn btn-primary inline-action">
+                Run
+              </button>
+            </div>
+            <div class="clearfix mb-3"></div>
+            <div class="alert alert-primary" style="display: none;"></div>
+            <div class="alert alert-danger" style="display: none;"></div>
+          </div>
+          <!-- end column -->
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+      defer
+    ></script>
+    <script src="/functions.js" defer></script>
+    <script src="/utils.js" defer></script>
+    <script src="/ui.js" defer></script>
+  </body>
+</html>
