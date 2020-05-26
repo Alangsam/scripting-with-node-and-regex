@@ -1,17 +1,24 @@
 module.exports = {
   getComponents(file) {
-    return "use the string .match() method and regex to find what you are looking for";
+    return file.match(
+      /(?<=<!--\sstart\scolumn\s-->).*?(?=<!--\send\scolumn\s-->)/gs
+    );
   },
   getName(component) {
-    return "use the string .match() method and regex to find what you are looking for";
+    return component.match(/(?<=<b>).*?(?=<\/b>)/g);
   },
   getDesc(component) {
-    return "use the string .match() method and regex to find what you are looking for";
+    return component.match(/(?<=<\/b>).*?(?=<\/p>)/gs);
   },
   getInputs(component) {
-    return "use the string .match() method and regex to find what you are looking for";
+    return component.match(/<input/g);
   },
   trim(str) {
-    return "use the string .replace() method and regex to first replace carriage returns and new lines with a space, then replace 2 or more spaces with 1 space, then remove spaces from beginning and end";
+    return str
+      .replace(/(\r)|(\n)/g, " ")
+      .replace(/\s{2,}/g, " ")
+      .replace(/^\s*|\s*$/g, "");
+
+    //("use the string .replace() method and regex to first replace carriage returns and new lines with a space, then replace 2 or more spaces with 1 space, then remove spaces from beginning and end");
   },
 };
