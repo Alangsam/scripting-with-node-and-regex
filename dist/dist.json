@@ -1,0 +1,641 @@
+[
+  {
+    "name": "add",
+    "desc": "- Add two values together",
+    "inputs": 2,
+    "type": "basic",
+    "typeNum": 100,
+    "isFavorite": false,
+    "order": 100
+  },
+  {
+    "name": "subract",
+    "desc": "- Subtract one value from the other",
+    "inputs": 2,
+    "type": "basic",
+    "typeNum": 100,
+    "isFavorite": false,
+    "order": 101
+  },
+  {
+    "name": "multiply",
+    "desc": "- multiply two values",
+    "inputs": 2,
+    "type": "basic",
+    "typeNum": 100,
+    "isFavorite": false,
+    "order": 102
+  },
+  {
+    "name": "divide",
+    "desc": "- divide the first value by the second",
+    "inputs": 2,
+    "type": "basic",
+    "typeNum": 100,
+    "isFavorite": false,
+    "order": 103
+  },
+  {
+    "name": "increment",
+    "desc": "- increase in value by one",
+    "inputs": 1,
+    "type": "basic",
+    "typeNum": 100,
+    "isFavorite": false,
+    "order": 104
+  },
+  {
+    "name": "decrement",
+    "desc": "- decrease in value by one",
+    "inputs": 1,
+    "type": "basic",
+    "typeNum": 100,
+    "isFavorite": false,
+    "order": 105
+  },
+  {
+    "name": "multDec",
+    "desc": "- multiply two decimals",
+    "inputs": 2,
+    "type": "basic",
+    "typeNum": 100,
+    "isFavorite": false,
+    "order": 106
+  },
+  {
+    "name": "divDec",
+    "desc": "- divide two decimals",
+    "inputs": 2,
+    "type": "basic",
+    "typeNum": 100,
+    "isFavorite": false,
+    "order": 107
+  },
+  {
+    "name": "stringCon",
+    "desc": "- concatenate two stings",
+    "inputs": 2,
+    "type": "basic",
+    "typeNum": 100,
+    "isFavorite": false,
+    "order": 108
+  },
+  {
+    "name": "stringConEq",
+    "desc": "- concatenate two stings using +=",
+    "inputs": 2,
+    "type": "basic",
+    "typeNum": 100,
+    "isFavorite": false,
+    "order": 109
+  },
+  {
+    "name": "mySentence",
+    "desc": "- what's your name?",
+    "inputs": 1,
+    "type": "basic",
+    "typeNum": 100,
+    "isFavorite": false,
+    "order": 110
+  },
+  {
+    "name": "nthGuy",
+    "desc": "- given a word, then a number, this is that position in the word",
+    "inputs": 2,
+    "type": "basic",
+    "typeNum": 100,
+    "isFavorite": false,
+    "order": 111
+  },
+  {
+    "name": "nthToLast",
+    "desc": "- given a word, then a number, this is that position from the end of the word",
+    "inputs": 2,
+    "type": "basic",
+    "typeNum": 100,
+    "isFavorite": false,
+    "order": 112
+  },
+  {
+    "name": "pushIt",
+    "desc": "- given an array, then a string, this will add the string to the end",
+    "inputs": 2,
+    "type": "basic",
+    "typeNum": 100,
+    "isFavorite": false,
+    "order": 113
+  },
+  {
+    "name": "popIt",
+    "desc": "- given an array, this takes the last word out of it",
+    "inputs": 1,
+    "type": "basic",
+    "typeNum": 100,
+    "isFavorite": false,
+    "order": 114
+  },
+  {
+    "name": "shiftIt",
+    "desc": "- given an array, this will remove the first one and give it to you",
+    "inputs": 1,
+    "type": "basic",
+    "typeNum": 100,
+    "isFavorite": false,
+    "order": 115
+  },
+  {
+    "name": "unShiftIt",
+    "desc": "- given an array, then a string, this will add the string to the beginning",
+    "inputs": 2,
+    "type": "basic",
+    "typeNum": 100,
+    "isFavorite": false,
+    "order": 116
+  },
+  {
+    "name": "shopping",
+    "desc": "- enter up to four items, and this'll turn them into a nice orderly list",
+    "inputs": 4,
+    "type": "basic",
+    "typeNum": 100,
+    "isFavorite": false,
+    "order": 117
+  },
+  {
+    "name": "movinOverOne",
+    "desc": "- given an array, then a string, this will add the string to the end and remove the first entry in the array",
+    "inputs": 2,
+    "type": "basic",
+    "typeNum": 100,
+    "isFavorite": false,
+    "order": 118
+  },
+  {
+    "name": "countingCards",
+    "desc": "- Enter a card value, this'll keep track of your odds and help you make an informed bet.",
+    "inputs": 1,
+    "type": "intermediate",
+    "typeNum": 100,
+    "isFavorite": false,
+    "order": 200
+  },
+  {
+    "name": "lookUpProfile",
+    "desc": "- Enter the name of someone in our database, and wether you want their number or likes.",
+    "inputs": 2,
+    "type": "intermediate",
+    "typeNum": 100,
+    "isFavorite": false,
+    "order": 201
+  },
+  {
+    "name": "randomRange",
+    "desc": "- Enter a max and a min, and this shows generates a random integer within the range.",
+    "inputs": 2,
+    "type": "intermediate",
+    "typeNum": 100,
+    "isFavorite": false,
+    "order": 202
+  },
+  {
+    "name": "splicin",
+    "desc": "- Enter an array and this will chop off the first and last points.",
+    "inputs": 1,
+    "type": "intermediate",
+    "typeNum": 100,
+    "isFavorite": false,
+    "order": 203
+  },
+  {
+    "name": "kindOfSplicin",
+    "desc": "- Enter an array and this will insert a string telling you where the halfway mark is.",
+    "inputs": 1,
+    "type": "intermediate",
+    "typeNum": 100,
+    "isFavorite": false,
+    "order": 204
+  },
+  {
+    "name": "checking",
+    "desc": "- Enter an array and an element and this will search if its in the array.",
+    "inputs": 2,
+    "type": "intermediate",
+    "typeNum": 100,
+    "isFavorite": false,
+    "order": 205
+  },
+  {
+    "name": "gettinTheType",
+    "desc": "- Use typeof to Check the Type of a Variable.",
+    "inputs": 1,
+    "type": "intermediate",
+    "typeNum": 100,
+    "isFavorite": false,
+    "order": 206
+  },
+  {
+    "name": "myFilter",
+    "desc": "- use a filter to return only odd numbers in an array",
+    "inputs": 1,
+    "type": "functional",
+    "typeNum": 100,
+    "isFavorite": false,
+    "order": 300
+  },
+  {
+    "name": "sliceArray",
+    "desc": "- first enter array, then where to begin, and where to stop",
+    "inputs": 3,
+    "type": "functional",
+    "typeNum": 100,
+    "isFavorite": false,
+    "order": 301
+  },
+  {
+    "name": "nonMutatingSplice",
+    "desc": "- enter an array and this will give you the first three values back",
+    "inputs": 1,
+    "type": "functional",
+    "typeNum": 100,
+    "isFavorite": false,
+    "order": 302
+  },
+  {
+    "name": "nonMutatingConcat",
+    "desc": "- Enter 2 arrays and this concatenates them for you",
+    "inputs": 2,
+    "type": "functional",
+    "typeNum": 100,
+    "isFavorite": false,
+    "order": 303
+  },
+  {
+    "name": "nonMutatingPush",
+    "desc": "- enter an array and something to be pushed to the end of the array, using concat",
+    "inputs": 2,
+    "type": "functional",
+    "typeNum": 100,
+    "isFavorite": false,
+    "order": 304
+  },
+  {
+    "name": "getRating",
+    "desc": "- see the average imdb rating of a director's movies (right now only Christopher Nolan)",
+    "inputs": 1,
+    "type": "functional",
+    "typeNum": 100,
+    "isFavorite": false,
+    "order": 305
+  },
+  {
+    "name": "squaring",
+    "desc": "- Takes an array, returns every number squared",
+    "inputs": 1,
+    "type": "functional",
+    "typeNum": 100,
+    "isFavorite": false,
+    "order": 306
+  },
+  {
+    "name": "alphabeticalOrder",
+    "desc": "- enter an array that contains letters as individual strings and this will alphabetize them",
+    "inputs": 1,
+    "type": "functional",
+    "typeNum": 100,
+    "isFavorite": false,
+    "order": 307
+  },
+  {
+    "name": "splitify",
+    "desc": "- enter a string, this will turn it into an array spliting each letter",
+    "inputs": 1,
+    "type": "functional",
+    "typeNum": 100,
+    "isFavorite": false,
+    "order": 308
+  },
+  {
+    "name": "sentensify",
+    "desc": "- puts a space in between every character of a string",
+    "inputs": 1,
+    "type": "functional",
+    "typeNum": 100,
+    "isFavorite": false,
+    "order": 309
+  },
+  {
+    "name": "urlSlug",
+    "desc": "- converts any string into an URLslug",
+    "inputs": 1,
+    "type": "functional",
+    "typeNum": 100,
+    "isFavorite": false,
+    "order": 310
+  },
+  {
+    "name": "checkPositive",
+    "desc": "- use Every method to make sure every number in an array is positive",
+    "inputs": 1,
+    "type": "functional",
+    "typeNum": 100,
+    "isFavorite": false,
+    "order": 311
+  },
+  {
+    "name": "rcheckSomePositive",
+    "desc": "- use some method to see if any number in an array is positive",
+    "inputs": 1,
+    "type": "functional",
+    "typeNum": 100,
+    "isFavorite": false,
+    "order": 312
+  },
+  {
+    "name": "convertToF",
+    "desc": "- convert celcius to farhenheit",
+    "inputs": 1,
+    "type": "algorithm",
+    "typeNum": 100,
+    "isFavorite": false,
+    "order": 400
+  },
+  {
+    "name": "reverseString",
+    "desc": "- reverse a string using the array method reverse",
+    "inputs": 1,
+    "type": "algorithm",
+    "typeNum": 100,
+    "isFavorite": false,
+    "order": 401
+  },
+  {
+    "name": "factorialize",
+    "desc": "- factorialize a number",
+    "inputs": 1,
+    "type": "algorithm",
+    "typeNum": 100,
+    "isFavorite": false,
+    "order": 402
+  },
+  {
+    "name": "findLongestWordLength",
+    "desc": "- Enter a sentence, this returns the longest word in the string",
+    "inputs": 1,
+    "type": "algorithm",
+    "typeNum": 100,
+    "isFavorite": false,
+    "order": 403
+  },
+  {
+    "name": "largestOfFour",
+    "desc": "- enter an array consisting of numbers, and this returns the largest value",
+    "inputs": 1,
+    "type": "algorithm",
+    "typeNum": 100,
+    "isFavorite": false,
+    "order": 404
+  },
+  {
+    "name": "confirmEnding",
+    "desc": "- enter a string and what you think the ending is, and this will tell you if it is actually the end or not",
+    "inputs": 2,
+    "type": "algorithm",
+    "typeNum": 100,
+    "isFavorite": false,
+    "order": 405
+  },
+  {
+    "name": "repeatStringNumTimes",
+    "desc": "- enter a string and how many times you want it repeated",
+    "inputs": 2,
+    "type": "algorithm",
+    "typeNum": 100,
+    "isFavorite": false,
+    "order": 406
+  },
+  {
+    "name": "truncateString",
+    "desc": "- if the entered string is longer than the entered number it gets truncated",
+    "inputs": 2,
+    "type": "algorithm",
+    "typeNum": 100,
+    "isFavorite": false,
+    "order": 407
+  },
+  {
+    "name": "findElement",
+    "desc": "- find the first even number in an array",
+    "inputs": 1,
+    "type": "algorithm",
+    "typeNum": 100,
+    "isFavorite": false,
+    "order": 408
+  },
+  {
+    "name": "booWho",
+    "desc": "- see if something is boolean or not",
+    "inputs": 1,
+    "type": "algorithm",
+    "typeNum": 100,
+    "isFavorite": false,
+    "order": 409
+  },
+  {
+    "name": "titleCase",
+    "desc": "- make any string titlecase",
+    "inputs": 1,
+    "type": "algorithm",
+    "typeNum": 100,
+    "isFavorite": false,
+    "order": 410
+  },
+  {
+    "name": "frankenSplice",
+    "desc": "- insert the first array into the second array at whatever number is specified",
+    "inputs": 3,
+    "type": "algorithm",
+    "typeNum": 100,
+    "isFavorite": false,
+    "order": 411
+  },
+  {
+    "name": "bouncer",
+    "desc": "- removes any element whose boolean value is false from an array",
+    "inputs": 1,
+    "type": "algorithm",
+    "typeNum": 100,
+    "isFavorite": false,
+    "order": 412
+  },
+  {
+    "name": "getIndexToIns",
+    "desc": "- enter a list of numbers, this will order the numbers and show you where to put your new number",
+    "inputs": 2,
+    "type": "algorithm",
+    "typeNum": 100,
+    "isFavorite": false,
+    "order": 413
+  },
+  {
+    "name": "mutation",
+    "desc": "- enter an array, if the second word is in the first then it returns true",
+    "inputs": 1,
+    "type": "algorithm",
+    "typeNum": 100,
+    "isFavorite": false,
+    "order": 414
+  },
+  {
+    "name": "chunkArrayInGroups",
+    "desc": "- console logs an entered array, split into smaller arrays specified by the second input",
+    "inputs": 2,
+    "type": "algorithm",
+    "typeNum": 100,
+    "isFavorite": false,
+    "order": 415
+  },
+  {
+    "name": "wheresWaldo",
+    "desc": "- if given a string, will tell you if \"Waldo\" is found inside",
+    "inputs": 1,
+    "type": "regex",
+    "typeNum": 100,
+    "isFavorite": false,
+    "order": 500
+  },
+  {
+    "name": "matchVowels",
+    "desc": "- will find all the vowels in a string",
+    "inputs": 1,
+    "type": "regex",
+    "typeNum": 100,
+    "isFavorite": false,
+    "order": 501
+  },
+  {
+    "name": "matchNotVowels",
+    "desc": "- everything in the string that's not a number or vowel",
+    "inputs": 1,
+    "type": "regex",
+    "typeNum": 100,
+    "isFavorite": false,
+    "order": 502
+  },
+  {
+    "name": "moreThanOnce",
+    "desc": "- shows you everytime there's more than one s",
+    "inputs": 1,
+    "type": "regex",
+    "typeNum": 100,
+    "isFavorite": false,
+    "order": 503
+  },
+  {
+    "name": "findOneOrMore",
+    "desc": "- finds al the c's in a string",
+    "inputs": 1,
+    "type": "regex",
+    "typeNum": 100,
+    "isFavorite": false,
+    "order": 504
+  },
+  {
+    "name": "beginningOf",
+    "desc": "- see if a string begins with \"The\"",
+    "inputs": 1,
+    "type": "regex",
+    "typeNum": 100,
+    "isFavorite": false,
+    "order": 505
+  },
+  {
+    "name": "endingOf",
+    "desc": "- see if string ends with \"end\"",
+    "inputs": 1,
+    "type": "regex",
+    "typeNum": 100,
+    "isFavorite": false,
+    "order": 506
+  },
+  {
+    "name": "matchAlphaNums",
+    "desc": "- show every alphanumeric element in a string",
+    "inputs": 1,
+    "type": "regex",
+    "typeNum": 100,
+    "isFavorite": false,
+    "order": 507
+  },
+  {
+    "name": "matchNonAlphaNums",
+    "desc": "- show every nonalphanumeric element",
+    "inputs": 1,
+    "type": "regex",
+    "typeNum": 100,
+    "isFavorite": false,
+    "order": 508
+  },
+  {
+    "name": "matchNums",
+    "desc": "- find all the numbers in a string",
+    "inputs": 1,
+    "type": "regex",
+    "typeNum": 100,
+    "isFavorite": false,
+    "order": 509
+  },
+  {
+    "name": "matchNonNums",
+    "desc": "- find all everything thats not a number",
+    "inputs": 1,
+    "type": "regex",
+    "typeNum": 100,
+    "isFavorite": false,
+    "order": 510
+  },
+  {
+    "name": "matchNoWhite",
+    "desc": "- find everything thats not whitespace",
+    "inputs": 1,
+    "type": "regex",
+    "typeNum": 100,
+    "isFavorite": false,
+    "order": 511
+  },
+  {
+    "name": "posNegLookahead",
+    "desc": "- cant start with a number, has to be 5 characters long, and has to end with at least 2 numbers",
+    "inputs": 1,
+    "type": "regex",
+    "typeNum": 100,
+    "isFavorite": false,
+    "order": 512
+  },
+  {
+    "name": "mixedGrouping",
+    "desc": "- can find either Eleanor or Franklin Roosevelt",
+    "inputs": 1,
+    "type": "regex",
+    "typeNum": 100,
+    "isFavorite": false,
+    "order": 513
+  },
+  {
+    "name": "captureGroupsReplace",
+    "desc": "- replaces the first three words, with themselves but in reverse order, dont use punctuation",
+    "inputs": 1,
+    "type": "regex",
+    "typeNum": 100,
+    "isFavorite": false,
+    "order": 514
+  },
+  {
+    "name": "iHateWhiteSpace",
+    "desc": "- remove white space from the front and end of a string",
+    "inputs": 1,
+    "type": "regex",
+    "typeNum": 100,
+    "isFavorite": false,
+    "order": 515
+  }
+]

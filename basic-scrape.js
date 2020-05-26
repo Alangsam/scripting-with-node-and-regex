@@ -84,7 +84,7 @@ const componentObjectsRegex = getRegexComponents.map((component, index) => {
   };
 });
 
-const targetFile = "./json/basic.json";
+const targetFile = "./dist/dist.json";
 const newBasic = componentObjectsBasic.concat(componentObjectsIntermediate);
 const newAlgorithm = componentObjectsFunctional.concat(
   componentObjectsAlgorithm
